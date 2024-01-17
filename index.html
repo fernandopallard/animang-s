@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animangás</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input class="container__botao" type="checkbox" id="menu">
+
+            <label class="container__rotulo" for="menu">
+                <nav class="cabecalho__menu container__imagem"></nav>
+            </label>
+
+            <ul class="lista__menu">
+                <li class="lista__menu__titulo">Categorias</li>
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link" href="#">SHONEN</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link" href="#">SHOUJO</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link" href="#">SEINEN</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link" href="#">JOSEI</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link" href="#">JIDAIGEKI</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link" href="#">GEKIGÁ</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link" href="#">KODOMO</a>
+                </li>
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link" href="#">HENTAI</a>
+                </li>
+            </ul>
+
+            <img class="container__imagem" src="images/Logo.png" alt="Logo do Animangás">
+
+            <h1 class="container__titulo">Ani<strong>mangás</strong></h1>
+            
+            <ul class="opcoes">
+                <input class="opcoes__botao" type="checkbox" id="opcoes-menu">
+                <label class="opcoes__rotulo" for="opcoes-menu">
+                    <li class="opcoes__item">CATEGORIAS</li>
+                </label>
+
+                <ul class="lista__menu">
+                    <li class="lista__menu__item">
+                        <a class="lista__menu__link" href="#">SHONEN</a>
+                    </li>
+                    <li class="lista__menu__item">
+                        <a class="lista__menu__link" href="#">SHOUJO</a>
+                    </li>
+                    <li class="lista__menu__item">
+                        <a class="lista__menu__link" href="#">SEINEN</a>
+                    </li>
+                    <li class="lista__menu__item">
+                        <a class="lista__menu__link" href="#">JOSEI</a>
+                    </li>
+                    <li class="lista__menu__item">
+                        <a class="lista__menu__link" href="#">JIDAIGEKI</a>
+                    </li>
+                    <li class="lista__menu__item">
+                        <a class="lista__menu__link" href="#">GEKIGÁ</a>
+                    </li>
+                    <li class="lista__menu__item">
+                        <a class="lista__menu__link" href="#">KODOMO</a>
+                    </li>
+                    <li class="lista__menu__item">
+                        <a class="lista__menu__link" href="#">HENTAI</a>
+                    </li>
+                </ul>
+
+                <li class="opcoes__item"><a class="opcoes__item__link" href="#">FAVORITOS</a></li>
+                <li class="opcoes__item"><a class="opcoes__item__link" href="#">MINHA ESTANTE</a></li>
+            </ul>
+
+        </div>
+
+        <div class="container">
+            <a href="#"><img class="container__imagem transparente" src="images/Favoritos.svg" alt="Meus favoritos"></a>
+            <a class="container__link" href="#">
+                <img img class="container__imagem pessoal" src="images/Sacola.svg" alt="Minhas compras">
+                <h2 class="container__link__titulo">Minha sacola</h2>
+            </a>
+            <a class="container__link" href="#">
+                <img img class="container__imagem pessoal" src="images/Usuario.svg" alt="Meu perfil">
+                <h2 class="container__link__titulo">Meu perfil</h2>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__paragrafo">Encontre em nossa estante o que precisa para seu entreterimento!</p>
+            <input class="banner__pesquisa" type="search" placeholder="Qual será sua próxima leitura?">
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/Martial Peak.jpeg" alt="Mangá de Martial Peak"></div>
+                        <div class="swiper-slide"><img src="images/Solo-Leveling.jpeg" alt="Mangá de Solo Leveling"></div>
+                        <div class="swiper-slide"><img src="images/The Beginning After The End.jpeg" alt="Mangá de The Beginning After The End"></div>
+                        <div class="swiper-slide"><img src="images/Jujutsu Kaisen.jpeg" alt="Mangá de Jujutsu Kaisen"></div>
+                        <div class="swiper-slide"><img src="images/Mo Huang Da Guan Jia – Magic Emperor.jpeg" alt="Mangá de Mo Huang Da Guan Jia - Magic Emperor"></div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card__descricao">
+                        <div class="descricao">
+                            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                            <h2 class="descricao__titulo-livro">Crunchyroll</h2>
+                            <p class="descricao__paragrafo">Embarque em uma aventura de anime com Crunchyroll, seu destino final para assistir à uma vasta coleção de séries e filmes de anime.</p>
+                        </div>
+                        <img class="card__imagem" src="images/Crunchyroll.png" alt="Logo de Crunchyroll">
+                    </div>
+                    <div class="card__botoes">
+                        <div class="botoes">
+                            <ul class="botoes__lista">
+                                <li class="botoes__item"><img src="images/Favoritos.svg" alt="Meus favoritos"></li>
+                                <li class="botoes__item"><img src="images/Sacola.svg" alt="Minhas compras"></li>
+                            </ul>
+                        </div>
+                        <a class="botoes__ancora" href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/Boku ga Koisuru Cosmic Star.jpg" alt="Mangá de Boku ga Koisuru Cosmic Star"></div>
+                        <div class="swiper-slide"><img src="images/Ponkotsu Ponko.jpg" alt="Mangá de Ponkotsu Ponko"></div>
+                        <div class="swiper-slide"><img src="images/Crazy Food Truck.jpg" alt="Mangá de Crazy Food Truck"></div>
+                        <div class="swiper-slide"><img src="images/Itsudemo Jitaku Ni Kaereru Ore Wa, Isekai De Gyoushounin O Hajimemashita.jpg" alt="Mangá de Itsudemo Jitaku Ni Kaereru Ore Wa, Isekai De Gyoushounin O Hajimemashita"></div>
+                        <div class="swiper-slide"><img src="images/Masochist Gal Himekawa-san.jpg" alt="Mangá de Masochist Gal Himekawa-san"></div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card__descricao">
+                        <div class="descricao">
+                            <h3 class="descricao__estrelinhas"><img src="images/Estrelinhas.svg" alt=""></h3>
+                            <h3 class="descricao__titulo">Autor do Mês</h3>
+                            <h2 class="descricao__titulo-livro">Eiichiro Oda</h2>
+                            <p class="descricao__paragrafo">Eiichiro Oda é um mangaká, sendo mais conhecido como criador da série One Piece.</p>
+                        </div>
+                        <img class="card__imagem oda" src="images/Eiichiro Oda.jpg" alt="Logo de Crunchyroll">
+                    </div>
+                    <div class="card__botoes">
+                        <div class="botoes">
+                            <ul class="botoes__lista">
+                                <li class="botoes__item"><img src="images/Favoritos.svg" alt="Meus favoritos"></li>
+                                <li class="botoes__item"><img src="images/Sacola.svg" alt="Minhas compras"></li>
+                            </ul>
+                        </div>
+                        <a class="botoes__ancora" href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topicos">
+                <h2 class="topicos__titulo">MANGÁS VISITADOS RECENTEMENTE</h2>
+                <ul class="topicos__lista">
+                    <li class="lista__item">
+                        <a class="item__link" href="#">One Piece</a>
+                    </li>
+                    <li class="lista__item">
+                        <a class="item__link" href="#">Vinland Saga</a>
+                    </li>
+                    <li class="lista__item">
+                        <a class="item__link" href="#">Jujutsu Kaisen</a>
+                    </li>
+                    <li class="lista__item">
+                        <a class="item__link" href="#">Vagabond</a>
+                    </li>
+                    <li class="lista__item">
+                        <a class="item__link" href="#">Berserk</a>
+                    </li>
+                    <li class="lista__item">
+                        <a class="item__link" href="#">Hajime No Ippo</a>
+                    </li>
+                    <li class="lista__item">
+                        <a class="item__link" href="#">Bleach</a>
+                    </li>
+                    <li class="lista__item">
+                        <a class="item__link" href="#">Naruto</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contato">
+                <div class="contato__textos">
+                    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+                    <h3 class="contato__subtitulo">Atualizações de mangás, notícias de animes, promoções e outros.</h3>
+                </div>
+                <input class="contato__email" type="email" placeholder="Cadastre seu e-mail">
+            </div>
+        </section>
+    </main>
+
+    <hr />
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Desenvolvido por Fernando</h2>
+        <ul class="rodape__lista">
+            <li class="rodape__lista__titulo">CONTATO</li>
+            <li class="rodape__lista__item">
+                <img src="images/Linkedin.svg" alt="Logo do Linkedin">
+                <a class="rodape__item__link" href="#">LinkedIn</a>
+            </li>
+            <li class="rodape__lista__item">
+                <img src="images/Github.svg" alt="Logo do Github">
+                <a class="rodape__item__link" href="#">GitHub</a>
+            </li>
+            <li class="rodape__lista__item">
+                <img src="images/Instagram.svg" alt="Logo do Instagram">
+                <a class="rodape__item__link" href="#">Instagram</a>
+            </li>
+            <li class="rodape__lista__item">
+                <img src="images/Tiktok.svg" alt="Logo do Tiktok">
+                <a class="rodape__item__link" href="#">TikTok</a>
+            </li>
+            <li class="rodape__lista__item">
+                <img class="rodape__item__img" src="images/Youtube.svg" alt="Logo do Youtube">
+                <a class="rodape__item__link" href="#">YouTube</a>
+            </li>
+            <li class="rodape__lista__item">
+                <img src="images/Facebook.svg" alt="Logo do Facebook">
+                <a class="rodape__item__link" href="#">Facebook</a>
+            </li>
+            <li class="rodape__lista__item">
+                <img src="images/Twitter.svg" alt="Logo do Twitter">
+                <a class="rodape__item__link" href="#">Twitter</a>
+            </li>
+        </ul>
+
+        <ul class="rodape__lista">
+            <li class="rodape__lista__titulo">ANIMANGÁS</li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Sobre</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Ajuda/FAQ</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Termos de Uso</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Política de Privacidade</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Ferramenta de Consentimento de Cookies</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Solicitações de Imprensa</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Baixe o App</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Resgatar Código</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Vagas</a>
+            </li>
+        </ul>
+
+        <ul class="rodape__lista">
+            <li class="rodape__lista__titulo">CONTA</li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Criar Conta</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__item__link" href="#">Login</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
